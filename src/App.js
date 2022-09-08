@@ -1,6 +1,11 @@
+import Counter from './components/counter'
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <div>
+      <h1>React Hooks Playground</h1>
+      <Counter />
+    </div>
   );
 }
 
